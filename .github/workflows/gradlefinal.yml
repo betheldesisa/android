@@ -27,5 +27,5 @@ jobs:
     - name: Send Push Notification
       uses: techulus/push-github-action@1.0.0
       env:
-        API_KEY: ${{ secrets.API_KEY }}
+        API_KEY: f99de154-90ca-4a8c-a435-d9c82d92dd0d        
         MESSAGE: "Hey Bethel, there's a new build"
